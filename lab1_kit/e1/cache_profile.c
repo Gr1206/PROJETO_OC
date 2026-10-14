@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define WORKING_SET_MIN (4 * 1024 * 16) // 4 KiB
-#define WORKING_SET_MAX (1024* 1024 * 64) // 1 MiB
+#define WORKING_SET_MAX (4 * 1024 * 16) // 1 MiB
 #define N_SAMPLES (10)
 #define TARGET_UPDATES (256 * 1024)
 
