@@ -1,5 +1,4 @@
-event=L2_RQSTS:DEMAND_DATA_RD_MISS min=32768 max=67108864 target=1048576 min_passes=4 samples=5
-Array: 32768 bytes
+event=L2_RQSTS:DEMAND_DATA_RD_MISS min=65536 max=67108864 target=1048576 min_passes=4 samples=5
 Array: 65536 bytes
 Array: 131072 bytes
 Array: 262144 bytes
