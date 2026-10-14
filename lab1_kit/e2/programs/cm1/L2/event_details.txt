@@ -1,0 +1,24 @@
+Available native events and hardware information.
+--------------------------------------------------------------------------------
+PAPI version             : 7.2.0.0
+Operating system         : Linux 6.12.40
+Vendor string and code   : GenuineIntel (1, 0x1)
+Model string and code    : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz (158, 0x9e)
+CPU revision             : 10.000000
+CPUID                    : Family/Model/Stepping 6/158/10, 0x06/0x9e/0x0a
+CPU Max MHz              : 4100
+CPU Min MHz              : 800
+Total cores              : 6
+SMT threads per core     : 1
+Cores per socket         : 6
+Sockets                  : 1
+Cores per NUMA region    : 6
+NUMA regions             : 1
+Running in a VM          : no
+Number Hardware Counters : 10
+Max Multiplex Counters   : 384
+Fast counter read (rdpmc): yes
+--------------------------------------------------------------------------------
+
+Event name:     L2_RQSTS:DEMAND_DATA_RD_MISS
+Description:    L2 requests, masks:Demand Data Read requests that miss L2 cache
