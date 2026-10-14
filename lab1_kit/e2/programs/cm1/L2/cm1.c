@@ -14,7 +14,7 @@
  * #ifndef also permits small validation runs through compiler -D options.
  */
 #ifndef WORKING_SET_MIN
-#define WORKING_SET_MIN (4ULL * 1024 * 32 * 2)
+#define WORKING_SET_MIN (4ULL * 1024 * 32)
 #endif
 #ifndef WORKING_SET_MAX
 #define WORKING_SET_MAX (1ULL * 1024 * 1024 * 64)
